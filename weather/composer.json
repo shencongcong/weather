@@ -1,0 +1,17 @@
+{
+    "name": "shencongcong\/weather",
+    "description": "the easy way to get weather",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shencongcong",
+            "email": "1343948033@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shencongcong\\Weather\\": "src"
+        }
+    }
+}
