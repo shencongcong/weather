@@ -1,0 +1,23 @@
+{
+    "name": "shencongcong\/mail",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shencongcong",
+            "email": "1343948033@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shencongcong\\Mail\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}

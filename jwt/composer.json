@@ -1,0 +1,24 @@
+{
+    "name": "shencongcong\/jwt",
+    "description": "a easy jwt achieve",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shencongcong",
+            "email": "1343948033@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shencongcong\\Jwt\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shencongcong\\Jwt\\ServiceProvider"
+            ]
+        }
+    }
+}

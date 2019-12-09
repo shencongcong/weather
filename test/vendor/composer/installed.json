@@ -1,0 +1,50 @@
+[
+    {
+        "name": "shencongcong/mysql",
+        "version": "1.1.6",
+        "version_normalized": "1.1.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/shencongcong/mysql.git",
+            "reference": "f7da68bef73030ebbf89472d748163bb0845f457"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/shencongcong/mysql/zipball/f7da68bef73030ebbf89472d748163bb0845f457",
+            "reference": "f7da68bef73030ebbf89472d748163bb0845f457",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "time": "2019-07-17T02:47:39+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Shencongcong\\Mysql\\ServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Shencongcong\\Mysql\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "shencongcong",
+                "email": "1343948033@qq.com"
+            }
+        ],
+        "description": "a esay method operating mysql"
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "name": "shencongcong\/ldap",
+    "description": "ldap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shencongcong",
+            "email": "1343948033@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shencongcong\\Ldap\\": "src"
+        }
+    }
+}

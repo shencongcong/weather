@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7d211f86b13b7929d4802050a5c9454e",
+    "packages": [
+        {
+            "name": "shencongcong/mysql",
+            "version": "1.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shencongcong/mysql.git",
+                "reference": "f7da68bef73030ebbf89472d748163bb0845f457"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shencongcong/mysql/zipball/f7da68bef73030ebbf89472d748163bb0845f457",
+                "reference": "f7da68bef73030ebbf89472d748163bb0845f457",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Shencongcong\\Mysql\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Shencongcong\\Mysql\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "shencongcong",
+                    "email": "1343948033@qq.com"
+                }
+            ],
+            "description": "a esay method operating mysql",
+            "time": "2019-07-17T02:47:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}
