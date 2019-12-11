@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed28527-6587-4d68-befe-b584fd6b7d40" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/laravel-curd/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-curd/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-curd/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravelCurd" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,24 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="HomeGateway.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ldap/src/Gateways/HomeGateway.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="47" column="17" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exception.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/huanleCurl/src/Exceptions/Exception.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HttpException.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysql/src/Exceptions/HttpException.php">
           <provider selected="true" editor-type-id="text-editor" />
@@ -53,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/ldap/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2079">
+              <first_editor relative-caret-position="2322">
                 <caret line="86" selection-start-line="86" selection-end-line="86" />
               </first_editor>
               <second_editor />
@@ -93,11 +76,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel-curd/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="189">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel-curd/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="351">
+                <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaravelCurd.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel-curd/src/LaravelCurd.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="65" column="59" lean-forward="true" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -121,6 +125,7 @@
       <find>callCustomCreator</find>
       <find>ldap_mail_search</find>
       <find>formatGateways</find>
+      <find>$tmpData</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,9 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jwt/src/ServiceProvider.php" />
-        <option value="$PROJECT_DIR$/jwt/composer.json" />
-        <option value="$PROJECT_DIR$/jwt/src/Exceptions/Exception.php" />
         <option value="$PROJECT_DIR$/jwt/src/Exceptions/JWTException.php" />
         <option value="$PROJECT_DIR$/jwt/src/Exceptions/TokenExpiredException.php" />
         <option value="$PROJECT_DIR$/jwt/src/Exceptions/PayloadException.php" />
@@ -181,6 +183,9 @@
         <option value="$PROJECT_DIR$/huanleCurl/README.md" />
         <option value="$PROJECT_DIR$/huanleCurl/src/HuanleCurl.php" />
         <option value="$PROJECT_DIR$/ldap/src/Gateways/HomeGateway.php" />
+        <option value="$PROJECT_DIR$/laravelCurd/composer.json" />
+        <option value="$PROJECT_DIR$/laravel-curd/src/LaravelCurd.php" />
+        <option value="$PROJECT_DIR$/laravel-curd/README.md" />
       </list>
     </option>
   </component>
@@ -212,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,7 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,18 +298,19 @@
       <workItem from="1567390981067" duration="598000" />
       <workItem from="1575546259251" duration="1654000" />
       <workItem from="1575857019493" duration="209000" />
-      <workItem from="1575862503140" duration="2522000" />
+      <workItem from="1575862503140" duration="4358000" />
+      <workItem from="1576032387489" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144471000" />
+    <option name="totallyTimeSpent" value="146358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19206008" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18508583" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -313,7 +319,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Structure" order="4" side_tool="true" visible="true" weight="0.043454934" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5563063" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18243243" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,20 +339,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ldap/src/Strategies/RandomStrategy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ldap/src/Support/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jwt/example/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -621,7 +613,7 @@
     <entry file="file://$PROJECT_DIR$/ldap/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2079">
+          <first_editor relative-caret-position="2322">
             <caret line="86" selection-start-line="86" selection-end-line="86" />
           </first_editor>
           <second_editor />
@@ -654,8 +646,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel-curd/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="189">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-curd/src/LaravelCurd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="65" column="59" lean-forward="true" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel-curd/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="351">
+            <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
